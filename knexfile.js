@@ -1,5 +1,6 @@
 module.exports = {
   client: 'sqlite3',
+  useNullAsDefault: true, // needed for sqlite
   connection: {
     filename: './data/projects.db'
   },
